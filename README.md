@@ -3,6 +3,6 @@
 
 <p>Usado no projeto:</p>
 <ul>
-  <li>ReactJS</li>
+  <li>React Native</li>
   <li>Expo</li>
 </ul>
