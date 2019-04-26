@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Help-me",
+    "slug": "helpeme",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.7.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/Icon.png",
+    "splash": {
+      // "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DA2825"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    }, 
+    "assetBundlePatterns": [
+      "**/*"
+    ], 
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.teste.Help-me",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Precisamos do acesso à sua localização para a seleção da endereço de seu perfil.",
+        "NSLocationAlwaysUsageDescription":  "Precisamos do acesso à sua localização para a seleção da endereço de seu perfil.",
+        "NSPhotoLibraryAddUsageDescription": "Precisamos do acesso à sua galeria para a seleção da foto de seu perfil.",
+        "NSPhotoLibraryUsageDescription": "Precisamos do acesso à sua galeria para a seleção da foto de seu perfil.",
+        "NSCameraUsageDescription":"Precisamos do acesso à sua camera para a seleção da foto de seu perfil."
+      } 
+    },
+    "android": {
+      "package":  "br.com.teste.Help-me" 
+    },
+    "description": "Help-me."
+  }
+}
